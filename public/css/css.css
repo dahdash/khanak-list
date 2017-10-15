@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Samim';
+  src: url('samim-font/Samim.eot'); /* IE9 Compat Modes */
+  src: url('samim-font/Samim.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('samim-font/Samim.woff') format('woff'), /* Pretty Modern Browsers */
+       url('samim-font/Samim.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+body {
+    font-family: 'Samim';
+}
+
+.fa-btn {
+    margin-left: 6px;
+}
+
+.list-edit-btn {
+    float: right;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.form-group.required .control-label:before {
+      content:"*";
+        color:red;
+}
+
+html {
+    min-height:100%;
+    position:relative;
+}
+
+body {
+  margin-bottom: 30px;
+}
+.website-footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    height: 20px;
+    padding-top:10px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
